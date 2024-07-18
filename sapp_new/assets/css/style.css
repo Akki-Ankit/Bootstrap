@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: white;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+
+}
+
+.section_home .button-group a {
+    margin-right: 10px;
+}
+
+.section_home .button-group img {
+    max-width: 190px;
+}
+
+.section_home .nav-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.section_home {
+    background: url(/assets/image/welcome-bg.jpg);
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    position: relative;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.section_home::before {
+    content: "";
+    background: linear-gradient(118deg, #7124fdcc 0%, #4628dcc2 100%);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+
+section {
+    position: relative;
+
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.c_gray {
+    background-color: #f6f9fe;
+}
+
+.custom-padding {
+    padding: 60px 0;
+}
+
+.why-small-business .onwer-love::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(148, 182, 233);
+    width: 12%;
+    margin: 0 45%;
+}
+
+.why-small-business .onwer-love {
+    position: relative;
+}
+
+.interface .onwer-love::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(148, 182, 233);
+    width: 8%;
+    margin: 0 45%;
+}
+
+.interface .onwer-love {
+    position: relative;
+}
+
+.power_sapp .onwer-love::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(148, 182, 233);
+    width: 8%;
+    margin: 0 45%;
+}
+
+.power_sapp .onwer-love {
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+.f_question .onwer-love::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(148, 182, 233);
+    width: 8%;
+    margin: 0 45%;
+}
+
+.f_question .onwer-love {
+    position: relative;
+}
+
+.a_device {
+    background: url(/assets/image/download-bg.jpg)no-repeat fixed center center / cover;
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+
+.a_device::before {
+    content: "";
+    background-color: rgba(16, 16, 45, 1);
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    left: 0;
+}
+
+.suscribe .child_suscribe input,button {
+    width: 100%;
+
+}
+
+.suscribe .child_suscribe button {
+    background-color: #7c4fe0;
+    color: #fff;
+    border: none;
+}
+
+.suscribe .row {
+    background: rgba(0, 0, 0, 0) url(/assets/image/map.png) no-repeat scroll center center / cover;
+    ;
+}
+
+.stay_tune .onwer-love::after {
+    content: "";
+    position: absolute;
+    border: 1px solid rgb(148, 182, 233);
+    width: 8%;
+    margin: 0 45%;
+}
+
+.stay_tune .onwer-love {
+    position: relative;
+}
+
+.stay_tune .staytune_icon {
+    /* display: inline-block; */
+    height: 45px;
+    width: 45px;
+    /* line-height: 45px; */
+    /* font-size: 18px; */
+    text-align: center;
+    background-color: #7c4fe0;
+    /* color: #fff; */
+    border-radius: 4px;
+}
+
+.organize-media button {
+    width: 150px;
+}
+
+.nav_bar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+
+}
+
+.section_home .nav_bar .navbar-toggler {
+    width: auto;
+}
+
+.stay_tune input button {
+    height: 30px;
+}
+
+.stay_tune .s_t_form_btn img {
+    width: 25px;
+}
+
+.footer .f_img img {
+    width: 30px;
+}
+
+.footer .download_img img {
+    width: 200px;
+}
+
+.f_section {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.main_section {
+    background-color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.nav-link {
+    color: #fff;
+
+}
+
+.navbar-dark {
+    background: white;
+
+}
+
+.nav-link-change {
+    color: black;
+}
+
+.suscribe .child_suscribe input,button {
+    width: auto;
+}
+
+.navbar-toggler {
+    background-color: #a5aad1;
+}
